@@ -1,0 +1,111 @@
+/*
+laranja: rgb(246,94,0);
+cinza-azulado: rgb(13,31,41);
+azul-escuro: rgb(1, 17, 23);
+*/
+
+* {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing:border-box;
+}
+html {
+    margin:0;
+}
+
+.top mark {
+    color: rgb(246,94,0);
+    text-transform: lowercase;
+    background-color: rgb(255,255,255);
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+}
+
+section, .divisoria nav {
+    width:900px;
+    margin: auto;
+}
+
+.top figure {
+    position:relative;
+    width:500px;
+}
+
+.top article {
+    width: 300px;  
+}
+
+.top figcaption {
+    position: absolute;
+    top: 0;
+    left: 200px;
+    background: rgb(13,31,41);
+    color: rgb(246,94,0);
+    padding: 5px;
+    font-size: 0.7em;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.phone {
+    color: #fff;    
+}
+.divisoria {
+    width: 100%;
+    background: rgb(13,31,41);
+}
+
+.divisoria ul {
+    display: flex;
+    flex-direction:row;
+    padding-left: 0;
+    list-style: none;
+}
+.divisoria li {
+    padding:10px 20px; 
+}
+.divisoria li:first-child, .divisoria li:hover {
+    background-color: rgb(246,94,0);
+    
+}
+
+.divisoria a {
+    text-decoration: none;  
+    color: #fff;
+}
+
+main section {
+    display: flex;
+    flex-direction: row;
+}
+
+.box {
+    width: 270px;
+}
+
+.box figure {
+    width: 100%;
+    margin-left: 0;
+    position: relative;
+}
+
+.box figcaption{
+    position:absolute;
+    bottom:-5px;
+    width:100%;
+    padding:5px 5px 15px;
+    text-align: center;
+    background: rgba(0,0,0,0.8); 
+    color: #fff;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 55% 75%, 50% 100%, 45% 75%, 0% 75%);
+}
+
+.box img {
+    width:inherit;
+}
+
+.box p {
+    font-size:0.8em;   
+}

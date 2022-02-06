@@ -1,0 +1,15 @@
+.jumbotron {
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    background-color: #e9ecef;
+    border-radius: 0.3rem;
+    background-image: url(../img/vitrine.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.form-control {
+    width: 80%;
+    display: inline-block;
+}

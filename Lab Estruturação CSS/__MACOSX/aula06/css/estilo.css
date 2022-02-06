@@ -1,0 +1,236 @@
+:root {
+    --blue: rgb(67, 112, 180);
+    --white: #fff;
+    --gray: rgb(161, 159, 157);
+}
+
+* {
+    font-family: Arial, Helvetica,sans-serif;
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media (min-width:1000px) {
+header {
+    background-image: url(..images/banner.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height:400px;
+    border-top: 10px solid var(--blue);
+}
+
+header, header a {
+    color:var(--white);
+}
+
+header a {
+    text-decoration: none;
+    font-size: 0.75em;
+    font-weight: lighter;
+}
+
+header ul {
+    display:flex;
+    list-style:none;
+    justify-content: space-between;
+    width:200px;
+    position:absolute;
+    top: 80px;
+    right: 50px;
+}
+
+header h3 {
+    position:absolute;
+    top: 80px;
+    left: 50px;
+    font-size: 0.95em;
+    font-weight: normal;
+}
+
+header h1 {
+    text-align: center;
+    position:relative;
+    top:160px;
+    font-size:3.6em;
+    font-weight: lighter;
+}
+
+header p {
+    position:relative;
+    top:180px;
+    text-align: center;
+    color: var(--gray);
+    font-size: 0.9em;
+}
+
+/* 
+ Main começa aqui
+*/
+
+.news, .staff, .products {
+    display:flex;
+    flex-direction: row;
+    padding: 80px 50px 100px;
+}
+
+.staff, .products {
+    flex-wrap: wrap;
+}
+
+.news div {
+    padding:0 40px;
+    border-right: 1px solid #ddd;
+}
+
+.news div:last-child{
+    border-right: none;
+}
+
+.news h3 {
+    color: var(--blue);
+    font-weight: lighter;
+    line-height:1.5em;
+    margin-bottom: 30px;
+}
+
+.news p {
+    color: var(--gray);
+    font-size: 0.9em;
+    font-weight: lighter;
+    line-height:1.5em;
+    margin-bottom: 30px;
+}
+
+.news a, .products a {
+    background-color:var(--blue);
+    font-size: 0.9em;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.staff { 
+    justify-content:space-between;
+    background-color:var(--blue);
+    color: #fff;
+}
+
+    .staff h2, .staff p {
+        width: 100%;
+        text-align: center;
+    }
+
+    .staff h2 {
+        margin:20px;
+        font-size: 2.6em;
+        font-weight: normal;
+    }
+
+    .staff > p {
+        margin-bottom: 80px;
+    }
+
+    .staff div {
+        padding: 50px 30px;
+        border: 1px solid #aaa;
+    }
+
+    .staff img{
+        border-radius:50%;
+    }
+
+    .staff h3 {
+        text-align: center;
+        font-weight: normal;
+        margin: 30px 0 10px;
+    }
+    .staff p {
+        color:#ddd;
+    }
+
+.products {
+    justify-content:space-between;
+}
+
+.products h2, .products > p {
+    width: 100%;
+    text-align: center;
+}
+
+.products div {
+    width: 450px;
+    margin: 25px;
+}
+
+.products img {
+    width:100%;
+}
+.products h2 {
+    margin:20px;
+    color: var(--blue);
+    font-size: 2.6em;
+    font-weight: normal;
+}
+.products > p {
+    margin-bottom: 80px;
+}
+
+.products h3 {
+    margin:20px 0;
+    color: var(--blue);
+    font-weight: normal;
+}
+
+.products p {
+    color:#aaa;
+    line-height: 1.5em;
+
+}
+
+.products div p {
+    margin-bottom: 30px;
+}
+
+/* 
+ Footer
+*/
+footer, footer ul {
+    display:flex;
+    flex-direction: row;
+}
+
+footer {
+    justify-content:space-between;
+    margin: 0px 50px;
+    color: var(--gray);
+    border-top: 1px solid #aaa;    
+}
+
+footer div {
+    margin-top: 30px;
+}
+footer ul {
+    list-style-type:none;
+}
+
+footer li {
+    margin: 10px;   
+}
+
+footer a {
+    text-decoration:none;
+    color: var(--blue);
+}
+
+}
+
+
+/* testes de recursos CSS 3 da aula 
+*/
+
+.staff img:hover {
+    transform: rotate(360deg);
+    transition: transform 1s linear;
+    
+}

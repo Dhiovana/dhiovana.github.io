@@ -1,0 +1,8 @@
+footer {
+  position: fixed;
+  bottom: 90px;;
+  left: 90px;;
+}
+div.box {
+  width: 50px;
+  display: inline-table;}

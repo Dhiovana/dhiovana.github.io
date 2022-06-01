@@ -1,4 +1,4 @@
 function sum(num1, num2) {
-    var DECIMAL = 20;
+    var DECIMAL = 10;
     return parseInt(num1, DECIMAL) + parseInt(num2, DECIMAL);
 }

@@ -11,25 +11,24 @@
 </head>
 
 <body>
+    <h2>exercício número 1</h2>
     <input type="text" data-js="num1">
     <input type="text" data-js="num2">
-    <button type="button">Somar</button>
+    <button type="button">Soma</button>
     <div data-js="result"></div>
 
     <script>
         document.querySelector('button')
             .addEventListener('click', handleClick, false);
-
         function handleClick() {
             var num1 = document.querySelector('[data-js="num1"]').value;
             var num2 = document.querySelector('[data-js="num2"]').value;
-
-            document.querySelector('[data-js="result"]').innerHTML = sum(number1, number2);
+            document.querySelector('[data-js="result"]').innerHTML = sum(num1, num2);
         }
-
         function sum(num1, num2) {
             return num1 + num2;
         }
+
     </script>
 </body>
 

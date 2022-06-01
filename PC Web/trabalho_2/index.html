@@ -30,6 +30,29 @@
         }
 
     </script>
+
+    <h2>exercício número 2</h2>
+    <input type="text" data-js="num1">
+    <input type="text" data-js="num2">
+    <button type="button">maior número</button>
+    <div data-js="result"></div>
+
+    <script>
+        function maior(num1, num2) {
+            var num1 = document.querySelector('[data-js="num1"]').value;
+            var num2 = document.querySelector('[data-js="num2"]').value;
+
+
+            if (num1 > num2)
+                return num1
+            else
+                return num2
+        }
+
+
+
+
+    </script>
 </body>
 
 </html>

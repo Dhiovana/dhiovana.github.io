@@ -1,0 +1,15 @@
+.img {
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+}
+
+#img {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#select img {
+    width: 700px;
+}

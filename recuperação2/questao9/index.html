@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recuperação PC Web</title>
+    <link rel="stylesheet" href="./css/estilo.css">
+</head>
+
+
+<body onload=inicia()>
+    <h1 style="text-align:center;">Questão 9!</h1>
+    <p>Usando matriz (array de array), crie o jogo da velha.
+        Inicialmente, as posições são variáveis vazias.O usuário fornece a linha e a coluna e clica num botão,
+        então é marcado no tabuleiro X ou O (se for o jogador 1 ou jogador 2).</p>
+    <hr>
+    <div id='board'></div><br />
+    Linha :.<input id="lin" type="number" min="1" max="3"><br><br>
+    Coluna:<input id="col" type="number" min="1" max="3"><br><br>
+    <button onclick="jogar()">Marcar</button><br><br>
+    <div id='aviso'></div><br />
+</body>
+
+<script src="./js/app.js" defer></script>
+
+</html>

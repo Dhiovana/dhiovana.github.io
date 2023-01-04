@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <script src="js/app.js" defer></script>
+    <link rel="styleshee" href="./css/style.css">
+    <title>Document</title>
+</head>
+
+<body data-bs-theme="white">
+    <header class="container">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid align-bottom">
+                <a class="navbar-brand" href="#">
+                    <img src="logo.jpg" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">
+                    President restaurant
+                </a>
+                <h2>Escolha seu pedido</h2>
+            </div>
+        </nav>
+    </header>
+    <main>
+
+        <section class="py-5 container">
+            <div class="items row">
+
+            </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+
+    <section class="restaurant-contain">
+
+
+    </section>
+    <div class="main">
+        <div class="container">
+            <h2 style=" color: #000000;">Seu pedido:</h4>
+
+                <h1 id="balance" class="balance">R$ 0.00</h1>
+                <small>será adicionado 10% do valor na taxa de serviço</small>
+
+                <div class="inc-exp-container">
+                    <div>
+                        <p id="money-plus" class="money plus"></p>
+                    </div>
+
+                    <div>
+                        <p id="money-minus" class="money minus"></p>
+                    </div>
+                </div>
+
+                <ul id="buyItem" class="buyItem"></ul>
+                <h3>Adicionar prato</h3>
+
+                <form id="form" method="get">
+                    <div class="form-control">
+                        <label for="text">Nome</label>
+                        <input autofocus type="text" id="text" placeholder="Nome do prato" />
+                    </div>
+                    <div class="form-control">
+                        <label for="amount">Valor <br />
+                        </label>
+                        <input type="number" step=".01" id="amount" placeholder="Valor do prato" />
+                    </div>
+                    <button class="btn">Confirmar</button>
+                </form>
+                <p>Não esqueça de conferir o pedido e o valor cobrado!</p>
+                <p> Nossa equipe agradece a preferência.</p>
+        </div>
+        <button id="remove"></button>
+    </div>
+
+</body>
+
+</html>

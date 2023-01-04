@@ -1,0 +1,49 @@
+:root {
+    --box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
+    background-color: #8f2020;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-title {
+    text-align: center;
+    color: black;
+    font-size: 250%;
+}
+
+.food-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+}
+
+.name {
+    font-size: 150%;
+    text-align: center;
+    margin-bottom: 3px;
+}
+
+.preco {
+    color: rgb(0, 255, 0);
+    margin-top: 0px;
+    text-decoration: wavy;
+    text-align: center;
+    font-size: 110%;
+}

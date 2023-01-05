@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listagem de Filmes</title>
+    <link rel="stylesheet" href="estilo/estilo.css" />
+</head>
+
+<body>
+    <nav>
+        <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="filmeFormInserir.html">Inserir novo filme</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2 class="titulo">Lista de Filmes assistidos</h2>
+        <hr />
+        <div id="erro">
+            <span id="msgErro"></span>
+            <!--Exibição em vermelho-->
+            <span id="msgSucesso"></span>
+            <!--Exibição em azul-->
+        </div>
+        <table id="tblFilmes">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>TITULO</th>
+                    <th>AVALIAÇÃO</th>
+                    <th>GÊNERO</th>
+                    <th>AÇÕES</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Aqui a tabela vai ser renderizada -->
+            </tbody>
+        </table>
+        <br />
+    </main>
+    <footer>
+        <hr />
+        Todos os direitos reservados
+    </footer>
+
+    <script src="filmesjs/excluir.js"></script>
+    <script src="filmesjs/listar.js"></script>
+</body>
+
+</html>

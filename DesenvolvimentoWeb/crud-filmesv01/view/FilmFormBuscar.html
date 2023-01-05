@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinedesweb</title>
+    <link rel="stylesheet" href="estilo/estilo.css" />
+</head>
+
+<body>
+    <nav>
+        <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="filmes.html">Voltar</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2 class="titulo">Editar filme</h2>
+        <hr />
+        <div id="erro">
+            <span id="msgErro"></span>
+            <span id="msgSucesso"></span>
+        </div>
+        <section>
+            <form>
+                Id: <input type="text" name="id" id="id" readonly />
+                Título: <input type="text" name="titulo" id="titulo" />
+                Gênero: <select name="cmbGeneros" id="cmbGeneros">
+                    <option value="0">-- Escolha --</option>
+                </select>
+                Avaliação: <input type="number" min="0" max="10" step="0.1" name="avaliacao" id="avaliacao" />
+                <input type="submit" value="Alterar" id="alterar" />
+                <input type="button" value="Cancelar" id="cancelar" />
+            </form>
+        </section><br />
+    </main>
+    <footer>
+        <hr />
+        Todos os direitos reservados
+    </footer>
+    <script src="filmesjs/buscar.js"></script>
+    <script src="filmesjs/alterar.js"></script>
+</body>
+
+</html>

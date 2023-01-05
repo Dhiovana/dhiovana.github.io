@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listagem de Filmes</title>
+    <link rel="stylesheet" href="estilo/estilo.css" />
+</head>
+
+<body>
+    <nav>
+        <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="generoFormInserir.html">Inserir novo genero</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2 class="titulo">Lista de Generos</h2>
+        <hr />
+        <div id="erro">
+            <span id="msgErro"></span>
+            <!--Exibição em vermelho-->
+            <span id="msgSucesso"></span>
+            <!--Exibição em azul-->
+        </div>
+        <table id="tblGeneros">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>DESCRICAO</th>
+                    <th>AÇÕES</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Aqui a tabela vai ser renderizada -->
+            </tbody>
+        </table>
+        <br />
+    </main>
+    <footer>
+        <hr />
+        Todos os direitos reservados
+    </footer>
+    <script src="generosJs/excluir.js"></script>
+    <script src="generosJs/listar.js"></script>
+</body>
+
+</html>
+Footer

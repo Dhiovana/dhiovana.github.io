@@ -1,0 +1,66 @@
+﻿nav {
+    background-color: #DBDBDB;
+    height: 60px;
+}
+
+ul.menu {
+    margin-top: 0;
+    padding: 15px 15px;
+    text-align: center;
+    /* centraliza na horizontal */
+}
+
+ul.menu li {
+    display: inline-block;
+    /* centraliza na horizontal */
+    margin: 0 5px;
+}
+
+.titulo {
+    text-align: center;
+    /* centraliza na horizontal */
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    width: 70%;
+    margin-top: 10px;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+#tblFilmes {
+    width: 70%;
+    margin: 0px auto;
+    /* centraliza na horizontal */
+}
+
+#tblGeneros {
+    width: 70%;
+    margin: 0px auto;
+    /* centraliza na horizontal */
+}
+
+th,
+td {
+    width: auto;
+}
+
+#erro {
+    text-align: center;
+}
+
+#msgErro {
+    color: red;
+}
+
+#msgSucesso {
+    color: navy;
+}
+
+footer {
+    text-align: center;
+    font-size: smaller;
+}
